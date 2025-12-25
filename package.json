@@ -2,9 +2,10 @@
   "name": "flowbitai_technical_assignment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "demo": "ts-node src/index.ts"
+    "build": "tsc",
+    "demo": "npm run build && node dist/index.js"
   },
   "keywords": [],
   "author": "",
